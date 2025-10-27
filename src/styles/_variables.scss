@@ -1,0 +1,23 @@
+$primary: #2b8a3e;
+$primary-600: #227233;
+$secondary: #0d6efd;
+$accent: #ffc107;
+$bg: #ffffff;
+$text: #212529;
+
+$radius-sm: 8px;
+$radius-md: 12px;
+$sp-1: 4px;
+$sp-2: 8px;
+$sp-3: 16px;
+$sp-4: 24px;
+
+:root{
+    --color-primary: #{$primary};
+    --color-secondary: #{$secondary};
+    --color-accent: #{$accent};
+    --radius-sm: #{$radius-sm};
+    --spacing-1: #{$sp-1};
+    --spacing-2: #{$sp-2};
+    --spacing-3: #{$sp-3};
+}
