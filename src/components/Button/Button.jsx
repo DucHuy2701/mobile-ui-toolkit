@@ -12,14 +12,14 @@ export default function Button({
   ...rest
 }) {
   const classes = [
-    styles.btn,
+    styles["btn"],
     styles[`btn--${variant}`],
     styles[`btn--${size}`],
     disabled ? styles["btn--disabled"] : "",
     className,
   ]
     .filter(Boolean)
-    .join("");
+    .join(" ");
 
     return (
         <button className={classes} onClick={onClick} disabled={disabled}>
@@ -28,7 +28,7 @@ export default function Button({
     );
 }
 
-Button.PropTypes = {
+Button.propTypes = {
     children: PropTypes.node.isRequired,
     variant: PropTypes.oneOf(["primary", "secondary", "ghost"]),
     size: PropTypes.oneOf(["sm", "md", "lg"]),
