@@ -1,23 +1,39 @@
-$primary: #2b8a3e;
-$primary-600: #227233;
-$secondary: #0d6efd;
-$accent: #ffc107;
-$bg: #ffffff;
-$text: #212529;
+:root {
+  // Color
+  --color-primary: #2b8a3e;
+  --color-primary-light: #4cd964;
+  --color-primary-dark: #20732e;
 
-$radius-sm: 8px;
-$radius-md: 12px;
-$sp-1: 4px;
-$sp-2: 8px;
-$sp-3: 16px;
-$sp-4: 24px;
+  --color-secondary: #007bff;
+  --color-accent: #ffb300;
 
-:root{
-    --color-primary: #{$primary};
-    --color-secondary: #{$secondary};
-    --color-accent: #{$accent};
-    --radius-sm: #{$radius-sm};
-    --spacing-1: #{$sp-1};
-    --spacing-2: #{$sp-2};
-    --spacing-3: #{$sp-3};
+  --color-bg: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-text: #212529;
+  --color-muted: #6c757d;
+
+  //Typo
+  --font-sans: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --line-height: 1.6;
+
+  // Radius
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  // Shadow
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 10px 24px rgba(0, 0, 0, 0.16);
+
+  // Spacing
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
 }
